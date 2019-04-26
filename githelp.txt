@@ -10,3 +10,16 @@ git remote add origin https://github.com/hwsharma9/dj.git
 git push -u origin master
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+
+
+add a new branch
+
+git checkout -b branch_name
+
+
+git commit -m "Commit message"
+
+push -u origin branch_name
+
