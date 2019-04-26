@@ -18,6 +18,10 @@ class AdminController extends Controller
         $this->middleware('auth');
     }
     
+    /**
+     * show admin dashboard
+     * @return void [description]
+     */
     public function index()
     {
     	return view('admin/index');
