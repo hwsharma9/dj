@@ -155,8 +155,8 @@
                                 </span>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href=""><i class="fa fa-circle-o"></i> Add Product</a></li>
-                                <li><a href=""><i class="fa fa-circle-o"></i> Product List</a></li>
+                                <li><a href="{{ URL('admin/products/create') }}"><i class="fa fa-circle-o"></i> Add Product</a></li>
+                                <li><a href="{{ URL('admin/products') }}"><i class="fa fa-circle-o"></i> Product List</a></li>
                             </ul>
                         </li>
                         <li>
